@@ -159,7 +159,6 @@ a{
 }
 
 .search{
-    font-size: 16px;
     padding-right: 20px;
     padding-left: 20px;
     width: 492px;
@@ -179,14 +178,11 @@ a{
 
 .icon-search{
     padding: 0;
-    background-image: url(https://img.icons8.com/material-rounded/24/000000/search.png);
-    margin-left: 15px;
-    width: 24px;
-    height: 24px;
+    background-image: url(iconSearch.png);
+    margin-left: 15px;   
     border: none;
-    font: inherit;
-    color: inherit;
     background-color: transparent;
+    background-repeat: no-repeat;
 }
 
 .icon-search:focus{
@@ -205,20 +201,21 @@ a{
     justify-content: center;
     align-content: stretch;
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 12px;
     margin-left: 4px;
     margin-right: 4px;
-    width: 100px;
+    font-size: 14px;
+    min-width: 100px;
     height: 34px;
     border-radius: 5px;
-    border: solid rgba(228, 220, 220, 0.85) 1px;
-    background-color: rgba(228, 220, 220, 0.85);
-    color:rgba(139, 139, 139, 0.85);
+    border: solid #f2f2f2 1px;
+    background-color: #f2f2f2;
+    color: #5F6368;
 }
 
 .button-buttons--inner:hover{
     border: solid rgba(139, 139, 139, 0.85) 1px;
-    background-color: rgba(199, 199, 199, 0.85)
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 .button-link{
