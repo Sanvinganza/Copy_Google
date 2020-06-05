@@ -41,25 +41,25 @@
         <img src="../googleSearchForm/google.png" class="logo">
         <div class="search-form">
             <div class="left-part">
-                <img src="https://img.icons8.com/material-rounded/24/000000/search.png" class="icon-search" />
+                <input type="button" class="icon-search"/>
             </div>
             <div class="field-search">
-                <input type="search" class="search">
+                <input type="search" class="search" onchange = "return location.href ='http://www.google.com/search?q=' + this.value">
             </div>
             <div class="right-part"></div>
         </div>
         <div class="block-buttons">
             <div class="button-buttons--inner">
-                <a href="#" class="button-link">Google search</a></div>
+                <a href="http://www.google.com/" class="button-link">Google search</a></div>
             <div class="button-buttons--inner">
                 <a href="#" class="button-link">I'm lucky</a></div>
         </div>
     </div>
 <!--
     <div class="footer">
-        <div class="side-bar">
+        <div class="footer--inner">
             <div class="country"></div>
-            <div class="menu-sidebar">
+            <div class="navigation">
                 <div class="about"></div>
                 <div class="setting"></div>
             </div>
@@ -67,5 +67,5 @@
     </div>
 -->
 </body>
-
+<script src="main.js"></script>
 </html>
