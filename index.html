@@ -7,14 +7,14 @@
     <title>Google</title>
     <!--<script type="text/javascript" src="../keyboard/keyboard.user.js" charset="UTF-8"></script>
     <link rel="stylesheet" type="text/css" href="../keyboard/keyboard.css">-->
-    <link href="../googleSearchForm/style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="favicon.png" type="image/png" style="width: 150px;height: 150px;">
 </head>
 
 <body>
     <div class="header">
         <a href="https://mail.google.com" class="gmail-link header-item">Gmail</a>
-        <a href="C:/Users/HP/Desktop/googleSearchForm/g.png" class="images-link header-item">Images</a>
+        <a href="#" class="images-link header-item">Images</a>
         <a href="#" class="google-apps header-item">
             <div class="line-cube">
                 <div class="cube"></div>
@@ -38,15 +38,17 @@
     </div>
 
     <div class="container-body">
-        <img src="../googleSearchForm/google.png" class="logo">
+        <img src="google.png" class="logo">
         <div class="search-form">
-            <div class="left-part">
+            <div class="search-form--inner search-form--icon-search">
                 <input type="button" class="icon-search"/>
             </div>
             <div class="field-search">
                 <input type="search" class="search" onchange = "return location.href ='http://www.google.com/search?q=' + this.value">
             </div>
-            <div class="right-part"></div>
+            <div class="search-form--inner search-form--icon-microfon" title="Search by voice">
+                <input type="button" class="microfon"/>
+            </div>
         </div>
         <div class="block-buttons">
             <div class="button-buttons--inner" onclick = "return location.href = 'http://www.google.com/search?q=' + document.querySelector('.search').value">
@@ -55,6 +57,7 @@
                 <a href="https://www.google.com/doodles/" class="button-link">I'm Feeling Lucky</a></div>
         </div>
     </div>
+    
 <!--
     <div class="footer">
         <div class="footer--inner">
