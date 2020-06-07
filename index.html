@@ -41,33 +41,47 @@
         <img src="google.png" class="logo">
         <div class="search-form">
             <div class="search-form--inner search-form--icon-search">
-                <input type="button" class="icon-search"/>
+                <input type="button" class="icon-search" />
             </div>
             <div class="field-search">
-                <input type="search" class="search" onchange = "return location.href ='http://www.google.com/search?q=' + this.value">
+                <input type="search" class="search">
             </div>
             <div class="search-form--inner search-form--icon-microfon" title="Search by voice">
-                <input type="button" class="microfon"/>
+                <input type="button" class="microfon" />
             </div>
         </div>
         <div class="block-buttons">
-            <div class="button-buttons--inner" onclick = "return location.href = 'http://www.google.com/search?q=' + document.querySelector('.search').value">
+            <div class="button-buttons--inner">
                 <a href="http://www.google.com/" class="button-link">Google Search</a></div>
+            <!--onclick = "return location.href = 'http://www.google.com/search?q=' + document.querySelector('.search').value"-->
             <div class="button-buttons--inner">
                 <a href="https://www.google.com/doodles/" class="button-link">I'm Feeling Lucky</a></div>
         </div>
     </div>
-    
-<!--
+
+    <div class="lang-choose">
+        <div class="change-lang lang-choose--item">Google offered in:</div>
+        <a href="#" class="lg lang-choose--item">русский</a>
+        <a href="#" class="lg lang-choose--item">Беларуская</a>
+    </div>
+
     <div class="footer">
-        <div class="footer--inner">
-            <div class="country"></div>
-            <div class="navigation">
-                <div class="about"></div>
-                <div class="setting"></div>
+        <div class="country footer--inner">Belarus</div>
+        <div class="navigation footer--inner">
+            <div class="block--navigation-items">
+                <a href="#" class="navigation-item">Advertising</a>
+                <a href="#" class="navigation-item">Business</a>
+                <a href="#" class="navigation-item">About</a>
+                <a href="#" class="navigation-item">How Search works</a>
+            </div>
+            <div class="block--navigation-items">
+                <a href="#" class="navigation-item">Privacy</a>
+                <a href="#" class="navigation-item">Terms</a>
+                <a href="#" class="navigation-item">Setting</a>
             </div>
         </div>
     </div>
--->
+
 </body>
+
 </html>
